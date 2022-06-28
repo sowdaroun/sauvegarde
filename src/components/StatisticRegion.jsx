@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form } from "react-bootstrap";
-import './statisticregion.scss'
+import './style/_statisticregion.scss'
 import {
   XAxis,
   YAxis,

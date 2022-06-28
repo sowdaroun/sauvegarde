@@ -4,7 +4,7 @@ import StatisticMedecin from '../components/StatisticMedecin';
 import StatisticRegion from '../components/StatisticRegion';
 import TopMedecin from "../components/TopMedecin";
 import Statistic from "../components/Statistic";
-import "./home.css";
+import "../components/style/_home.scss";
 import Bande from '../components/Bande';
 import TopBar from '../components/TopBar/TopBar';
 
@@ -18,7 +18,6 @@ function TableauBord() {
             <div className="statistique">
                 <StatisticMedecin />
                 <StatisticRegion />
-
             </div>
             <TopMedecin />
         </div>

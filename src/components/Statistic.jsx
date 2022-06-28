@@ -1,5 +1,5 @@
 import React from 'react'
-import './statistic.scss'
+import './style/_statistic.scss'
 
 function Statistic() {
   return (

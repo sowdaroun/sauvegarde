@@ -2,7 +2,7 @@ import React from "react";
 import carte from "../Icones/carte.png";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
-import "./bande.scss";
+import "./style/_bande.scss";
 
 function Bande() {
   return (

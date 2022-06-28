@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 import TopBar from "../components/TopBar/TopBar";
-import "./recherchedoctor.scss";
+import "../components/style/_recherchedoctor.scss";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';

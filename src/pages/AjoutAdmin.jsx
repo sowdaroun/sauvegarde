@@ -2,7 +2,7 @@ import React from "react";
 import PersonIcon from "@mui/icons-material/Person";
 import LockOpenIcon from "@mui/icons-material/LockOpen";
 import LoginIcon from "@mui/icons-material/Login";
-import "./ajoutadmin.scss";
+import "../components/style/_ajoutadmin.scss";
 import TopBar from "../components/TopBar/TopBar";
 /*import Box from '@mui/material/Box';
 import Input from '@mui/material/Input';

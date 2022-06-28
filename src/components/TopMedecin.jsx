@@ -1,5 +1,5 @@
 import React from 'react'
-import './topmedecin.scss'
+import './style/_topmedecin.scss'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import TaskAltIcon from '@mui/icons-material/TaskAlt';
 

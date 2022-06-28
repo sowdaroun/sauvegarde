@@ -1,5 +1,5 @@
 import React from 'react'
-import './statisticmedecin.scss'
+import './style/_statisticmedecin.scss'
 import { Form } from "react-bootstrap";
 import { Doughnut } from 'react-chartjs-2';
 import { Chart, ArcElement, Legend } from "chart.js"
