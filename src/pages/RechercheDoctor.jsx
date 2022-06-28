@@ -91,37 +91,42 @@ function RechercheDoctor() {
       <TopBar />
       <div className="top">
         <div className="search">
-          <h2>Filter Par Ville</h2>
+          <h4>Filter Par Ville</h4>
           <Form.Select
             style={{
-              width: "100%",
+              width: "80%",
               height: "40px",
               marginBottom: "5px",
+              borderRadius: "5px",
+              boxShadow: "0 1px 1px rgba(0, 0, 0, 0.307)",
             }}
           >
             <option>Select</option>
           </Form.Select>
         </div>
         <div className="search">
-          <h2>Filter Par Spécialité</h2>
+          <h4>Filter Par Spécialité</h4>
           <Form.Select
             style={{
-              width: "100%",
+              width: "80%",
               height: "40px",
-
+              borderRadius: "5px",
               marginBottom: "5px",
+              boxShadow: "0 1px 1px rgba(0, 0, 0, 0.307)",
             }}
           >
             <option>Select</option>
           </Form.Select>
         </div>
         <div className="search">
-          <h2>Filter Par Hopital</h2>
+          <h4>Filter Par Hopital</h4>
           <Form.Select
             style={{
-              width: "100%",
+              width: "80%",
               height: "40px",
               marginBottom: "5px",
+              borderRadius: "5px",
+              boxShadow: "0 1px 1px rgba(0, 0, 0, 0.307)",
             }}
           >
             <option>Select</option>
@@ -224,7 +229,7 @@ function RechercheDoctor() {
 
 
       </div>
-    </div>
+    </div >
   );
 }
 

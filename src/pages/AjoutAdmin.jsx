@@ -18,7 +18,7 @@ function AjoutAdmin() {
       <TopBar />
       <div className="loginforme">
         <form>
-          <h1 style={{ marginLeft: "70px", marginTop: '20px', marginBottom: '7px' }}>AJOUTER UN ADMIN</h1>
+          <h1 style={{ marginLeft: "70px", marginTop: '20px', marginBottom: '40px' }}>AJOUTER UN ADMIN</h1>
           <div className="input-item">
             <PersonIcon fontSize="large" />
             <input type="text" placeholder="Nom" />
@@ -47,7 +47,7 @@ function AjoutAdmin() {
               fontSize: "20px",
               marginBottom: "25px",
               height: "50px",
-              borderRadius: "10px",
+              borderRadius: "7px",
               border: "none"
             }}
           >
