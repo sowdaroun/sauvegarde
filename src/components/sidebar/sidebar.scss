@@ -1,0 +1,112 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 95vh;
+    width: 320px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.307);
+
+    &__men {
+        img {
+            width: 80px;
+            margin-left: 30px;
+            margin-top: 20px;
+
+        }
+    }
+
+    &__connect {
+        button {
+            width: 220px;
+            height: 35px;
+            border: 0.1em solid #179CBC;
+            margin-left: 60px;
+            margin-top: 20px;
+            border-radius: 13px;
+            background-color: #fff;
+            color: #179CBC;
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+
+
+    &__log {
+        display: grid;
+        place-items: center;
+        height: 120px;
+        font-size: 1.2rem;
+        padding-left: 0px;
+        font-family: Helvetica;
+
+
+        p {
+            font-size: small;
+            font-family: Helvetica;
+        }
+    }
+
+
+
+    &__menu {
+        position: relative;
+
+        &__item {
+            display: flex;
+            align-items: center;
+            place-content: flex-start;
+            padding: 1rem 2rem;
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #555555;
+            transition: color 0.3s ease-in-out;
+            font-family: Helvetica;
+            font-weight: bold;
+
+            &.active {
+                color: #fff;
+
+            }
+
+            &.active &__icon {
+                color: #fff;
+
+            }
+
+            &__icon {
+                margin-right: 1rem;
+                color: #179CBC;
+
+                i {
+                    font-size: 1.75rem;
+                }
+            }
+        }
+
+        &__indicator {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: calc(100% - 1rem);
+            background-color: #179CBC;
+            z-index: -1;
+            border-radius: 15px;
+            transform: translateX(-50%);
+            transition: 0.3s ease-in-out;
+        }
+    }
+}
+
+._menuSelectMap {
+    display: inline;
+    margin: 40%;
+    position: relative;
+    word-spacing: 2rem;
+    width: 370px;
+    padding-top: 50px;
+}
+
+._maMapage {
+    display: contents;
+}

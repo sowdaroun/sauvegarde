@@ -1,0 +1,24 @@
+.container{
+    width: 100%;
+    flex: 0.8;
+}
+.diabete{
+    background: white;
+    margin: 10px;
+    border-radius: 10px;
+    height: 60vh;
+    box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.07);
+    -webkit-box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.07);
+    -moz-box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.07);
+
+ }
+ .diagrame{
+    margin: 15px;
+ }
+ .title{
+    margin: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     
+ }

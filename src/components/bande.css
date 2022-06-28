@@ -1,0 +1,75 @@
+.bande_container{
+    display: flex;
+    align-items: center;
+    background: #179cbc;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.07);
+    -webkit-box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.07);
+    -moz-box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.07);
+}
+.bande_logo{
+    border-radius: 50px;
+    margin-top: 10px;
+    
+    padding: 5px;
+    height: 70px;
+   
+}
+.bande_left{
+    display: flex;
+    background: #179cbc;
+    margin: 15px;
+}
+.centre{
+    margin-left: 15px;
+    margin-top: 10px;
+    background: #179cbc; 
+}
+.centre>span  {
+    background: #179cbc;  
+}
+.centre > br{
+    background: #179cbc; 
+}
+.bouton{
+    margin-top: 10px;
+    background: #179cbc;
+    margin-bottom: 5px;
+}
+.flash{
+    background: #179cbc;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.flash>img{
+    background: #179cbc;
+    
+}
+
+   
+
+/*.logo{
+    border-radius: 50px;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    height: 70px;
+}
+
+
+.band_left{
+    display: flex;
+}
+.flash{
+    margin: 20px;
+}
+.bouton{
+    display: flex;
+    align-items: center;
+    
+    
+}*/

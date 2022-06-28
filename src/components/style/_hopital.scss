@@ -1,0 +1,56 @@
+._hopital {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
+    border: 0.1em solid rgb(245, 242, 242);
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+
+    ul {
+        display: inline-flex;
+        margin: 35px;
+        margin-bottom: auto;
+        margin: 25px;
+        font-family: Helvetica;
+
+        li {
+            margin-top: 10px;
+            display: inline;
+            list-style: none;
+
+            h3 h6 {
+                margin-left: 35px;
+                margin-bottom: 35px;
+            }
+
+            h3 {
+                padding-left: 10px;
+            }
+
+            h6 {
+                font-size: small;
+                padding-left: 10px;
+            }
+
+        }
+
+        img {
+            width: 100px;
+        }
+    }
+
+    button {
+        border: #179CBC;
+        margin-left: 750px;
+        margin-top: 30px;
+        width: 260px;
+        height: 45px;
+        font-weight: bolder;
+        border-radius: 10px;
+        background-color: #179CBC;
+        color: #fff;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
