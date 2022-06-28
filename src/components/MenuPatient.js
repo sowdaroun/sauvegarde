@@ -1,22 +1,32 @@
+// import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
+// import SearchIcon from '@material-ui/core/Search';
+
+
+// Top bar creer par sow
+// <ul className='memu_med'>
+//         <li className='menu_item'>
+//           <AccountCircleIcon style={{ height: '60px', width: '60px' }} />
+//           <div className='user_list'>
+//             <div style={{ display: 'flex', alignItems: 'center' }}>
+//               <TaskAltIcon style={{ fontSize: 'small', margin: '5px', color: 'gray' }} />
+//               <span style={{ fontWeight: 'bold' }}>Ousmane Camara</span>
+//             </div>
+
+//             <span style={{ fontSize: '13px', marginLeft: '10px' }}>Diabetique de type A</span>
+//             <span style={{ fontSize: '10px', color: 'gray', marginLeft: '10px' }}>En Traitement</span>
+//           </div>
+//         </li>
+//       </ul>
 import React from 'react';
 import './style/_menuPatient.scss';
-import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
-// import SearchIcon from '@material-ui/core/Search';
 import SearchIcon from '@mui/icons-material/Search';
+import TopBar from './TopBar/TopBar';
 <SearchIcon />
 const MenuPatient = () => {
     return (
         <div className="barNavPatient">
-            <ul>
-                <li><img src="./avatar.png" alt="avatar" /></li>
-                <h2>D DIALLO IBRAHIM <p>Cardioloque</p></h2>
-                <li>
-                    <div className='__searIcon'>
-                        <input type="text" placeholder='            Rechercher' />
-                    </div>
-                </li>
-                <li ><NotificationsActiveIcon fontSize='large' /></li>
-            </ul>
+            <TopBar />
+
             <div className='__selectPatient'>
                 <div className='__ville'>
                     <h4>Filtrer par ville</h4>
