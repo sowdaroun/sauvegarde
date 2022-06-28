@@ -9,7 +9,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import "./statisticdiabete.css";
+import "./statisticdiabete.scss";
 const data = [
   {
     name: "JAN",

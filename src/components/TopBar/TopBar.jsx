@@ -3,7 +3,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import MenuIcon from '@mui/icons-material/Menu';
-import "./topbar.css";
+import "./topbar.scss";
 
 function TopBar() {
   return (
