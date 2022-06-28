@@ -1,23 +1,28 @@
-.medecin_contenu{
+.medecin_contenu {
     flex: 0.8;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.07);
-    -webkit-box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.07);
-    -moz-box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.07);
-   
+    box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.07);
+
 }
-.memu_med{
+
+.memu_med {
     list-style: none;
     width: 26%;
     border: 0.1px solid black;
     display: inline-block;
-    margin: 10px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
 }
-.menu_item{
+
+.menu_item {
     display: flex;
 }
-.user_list{
+
+.user_list {
     display: flex;
     flex-direction: column;
     margin-left: 10px;

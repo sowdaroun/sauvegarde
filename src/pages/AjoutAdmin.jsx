@@ -18,21 +18,21 @@ function AjoutAdmin() {
       <TopBar />
       <div className="loginforme">
         <form>
-          <h1 style={{ marginLeft: "40px", marginTop: '20px', marginBottom: '7px' }}>AJOUTER UN ADMIN</h1>
+          <h1 style={{ marginLeft: "70px", marginTop: '20px', marginBottom: '7px' }}>AJOUTER UN ADMIN</h1>
           <div className="input-item">
-            <PersonIcon style={{ backgroundColor: "rgb(204, 197, 197)" }} />
+            <PersonIcon fontSize="large" />
             <input type="text" placeholder="Nom" />
           </div>
           <div className="input-item">
-            <PersonIcon style={{ backgroundColor: "rgb(204, 197, 197)" }} />
+            <PersonIcon fontSize="large" />
             <input type="text" placeholder="Prenom" />
           </div>
           <div className="input-item">
-            <LoginIcon style={{ backgroundColor: "rgb(204, 197, 197)" }} />
+            <LoginIcon fontSize="large" />
             <input type="text" placeholder="Login" />
           </div>
           <div className="input-item">
-            <LockOpenIcon style={{ backgroundColor: "rgb(204, 197, 197)" }} />
+            <LockOpenIcon fontSize="large" />
             <input type="password" placeholder="Password" />
           </div>
 
@@ -41,13 +41,14 @@ function AjoutAdmin() {
               background: "#179CB1",
               marginLeft: "20px",
               marginRight: "20px",
-              width: "90%",
-              padding: "5px",
+              width: "93%",
+              padding: "1px",
               color: "white",
               fontSize: "20px",
               marginBottom: "25px",
               height: "50px",
-              borderRadius: "10px"
+              borderRadius: "10px",
+              border: "none"
             }}
           >
             Ajouter

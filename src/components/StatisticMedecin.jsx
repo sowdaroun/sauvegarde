@@ -71,7 +71,7 @@ function StatisticMedecin() {
     <div className='Medecin'>
       <div className='titlemede'>
         <h3 style={{ color: '#179CBC', fontWeight: 'bold' }}>MEDECIN PAR REGION</h3>
-        <Form.Select style={{ width: '25%', height: '40px', background: 'transparent' }}>
+        <Form.Select style={{ width: '25%', height: '40px', background: 'transparent', borderRadius: '10px' }}>
           <option >Select</option>
         </Form.Select>
       </div>

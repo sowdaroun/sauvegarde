@@ -11,6 +11,7 @@ import {
   CartesianGrid,
 } from "recharts";
 
+
 const data = [
   {
     name: "Cona",
@@ -60,7 +61,7 @@ function StatisticRegion() {
     <div className='region'>
       <div className='titlere'>
         <h3 style={{ color: '#179CBC', fontWeight: 'bold' }}>CAS PAR REGION</h3>
-        <Form.Select style={{ width: '30%', height: '40px', background: 'transparent' }}>
+        <Form.Select style={{ width: '30%', height: '40px', background: 'transparent', borderRadius: '10px' }}>
           <option >Select</option>
         </Form.Select>
       </div>

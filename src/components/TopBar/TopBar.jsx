@@ -10,7 +10,7 @@ function TopBar() {
     <div className="topbar">
       <div className="avatar">
         <MenuIcon style={{ display: 'none' }} />
-        <AccountCircleIcon style={{ height: "80px", width: "80px" }} />
+        <AccountCircleIcon style={{ height: "120px", width: "120px" }} />
         <div>
           <h3 style={{ fontWeight: 'bold', fontSize: "25px" }}>Dr DIALLO ISMAEL</h3>
           <h2 style={{ color: "gray", fontSize: "12px" }}>
